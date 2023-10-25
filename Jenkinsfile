@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    tools { // Spécifiez les outils ici
+        nodejs 'Built-In Node'
+    }
     triggers {
         pollSCM('*/5 * * * *') // Vérifier toutes les 5 minutes
     }
