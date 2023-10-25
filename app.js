@@ -5,7 +5,8 @@
 </head>
 <body>
     <script>
-        alert("Hello");
+        // Utilisez la fonction 'document.write' pour afficher le message dans la page HTML
+        document.write("Hello");
     </script>
 </body>
 </html>
