@@ -1,5 +1,3 @@
+console.log("Hello, Jenkins!");
 
-    <script>
-     console.log("Hello, Jenkins!");
-    </script>
 
